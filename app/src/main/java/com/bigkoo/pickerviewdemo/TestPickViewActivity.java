@@ -17,7 +17,7 @@ import com.bigkoo.pickerview.TimePopupWindow.OnTimeSelectListener;
 import com.bigkoo.pickerview.TimePopupWindow.Type;
 
 
-public class MainActivity extends Activity {
+public class TestPickViewActivity extends Activity {
 
     private ArrayList<String> options1Items = new ArrayList<String>();
     private ArrayList<ArrayList<String>> options2Items = new ArrayList<ArrayList<String>>();
@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_pickview_test);
         tvTime=(TextView) findViewById(R.id.tvTime);
         tvOptions=(TextView) findViewById(R.id.tvOptions);
         //时间选择器
